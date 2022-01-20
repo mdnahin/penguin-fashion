@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+}
+h3,h4,h5,h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+  /* Theme Color  */
+
+  .orange-bg {
+    background: #FFFBF0;
+}
+
+.olive-bg {
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+
+}
+
+.light-dark {
+    color: #363958;
+
+}
+
+.orange {
+    color: #FABE4C;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* Header Menu  */
+header{
+    padding: 20px 0;
+}
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+nav ul li a{
+    display: inline-block;
+    margin-left: 18px;
+    color: #363958;
+}
+nav ul li a:hover{
+    color: #FABE4C;
+}
+ /* Slider Css  */
+ .slider-content{
+     padding-right: 50px;
+ }
+ .slider-content h1 {
+    font-size: 75px;
+ }
+ .slider-content p{
+     padding-right: 20px;
+ }
+ .slider-content h1 span {
+    color: #363958;
+ }
+
+ a#slider-btn {
+    display: inline-block;
+    padding: 8px 31px;
+    transition: 0.1s ease-in;
+}
+a#slider-btn:hover{
+    background: #FABE4C;
+}
