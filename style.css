@@ -15,15 +15,18 @@ h3,h4,h5,h6{
 }
   /* Theme Color  */
 
-  .orange-bg {
+.orange-bg {
     background: #FFFBF0;
 }
 
 .olive-bg {
+    background: #A4BC46;
+
+}
+.btn-olive{
     background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
 
 }
-
 .light-dark {
     color: #363958;
 
@@ -36,7 +39,13 @@ h3,h4,h5,h6{
 a{
     text-decoration: none;
 }
-
+section {
+    padding: 50px 0;
+}
+.section-title h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
 /* Header Menu  */
 header{
     padding: 20px 0;
@@ -61,7 +70,7 @@ nav ul li a:hover{
      padding-right: 50px;
  }
  .slider-content h1 {
-    font-size: 75px;
+    font-size: 4.65rem;
  }
  .slider-content p{
      padding-right: 20px;
@@ -80,6 +89,9 @@ a#buyNow-btn:hover{
 }
 
 /* Product Area  */
+.card-title{
+    font-size: 2rem;
+}
 .product-img {
     background: #F1F1F1;
     padding: 20px;
